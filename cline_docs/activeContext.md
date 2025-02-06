@@ -1,14 +1,15 @@
 # Active Context
 
-## Current Work
+## What You're Working On Now
 
-- Initializing the memory bank by setting up required documents.
+- Developing the update-check functionality for the VSCode extension.
 
 ## Recent Changes
 
-- Created technical context and progress documents.
-- Recognized the need to add additional memory bank files.
+- Updated product and technical contexts.
 
 ## Next Steps
 
-- Develop system patterns documentation.
+- Refactor code as needed.
+- Implement and run integration tests.
+- Monitor user feedback for improvements.

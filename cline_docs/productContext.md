@@ -13,5 +13,5 @@ This project is designed to provide a VSCode extension that enhances update noti
 ## How It Should Work
 
 - Utilize the built-in VSCode update check functionality.
-- Automatically determine the Linux distribution and execute the appropriate package manager commands.
+- Automatically determine the Linux distribution and execute the appropriate package manager commands (critical feature).
 - Provide clear and actionable notifications about updates.

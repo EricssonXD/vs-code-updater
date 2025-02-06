@@ -1,18 +1,21 @@
 # Technical Context
 
-## Technologies
+## Technologies Used
 
-- Visual Studio Code Extension API
+- Visual Studio Code Extension APIs
 - TypeScript
 - Node.js
-- Linux package managers (apt, pacman, yum, etc.)
+- Linux command execution
 
 ## Development Setup
 
-- Developed in VSCode on Linux.
-- Uses pnpm for package management.
-- Tested with the VSCode extension testing framework.
+- Clone the repository and install dependencies using a package manager (e.g., pnpm).
+- Open the project in Visual Studio Code.
+- Use the VSCode debugger to run and test the extension.
+- Follow the project's README.md for additional setup instructions.
 
-## Constraints
+## Technical Constraints
 
-- Focused on Linux environments.
+- Must operate within the VSCode Extension environment.
+- Limited to the APIs provided by VSCode and the Node.js ecosystem.
+- Requires compatibility across different Linux distributions for executing update commands.
