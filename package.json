@@ -3,6 +3,7 @@
   "displayName": "VS Code Updater",
   "description": "This is a simple extension that allows user to update vscode on linux with one click",
   "version": "0.0.1",
+  "repository": "https://github.com/EricssonXD/vs-code-updater",
   "engines": {
     "vscode": "^1.96.0"
   },
