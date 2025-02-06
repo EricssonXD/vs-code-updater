@@ -14,10 +14,6 @@
   "contributes": {
     "commands": [
       {
-        "command": "vs-code-updater.helloWorld",
-        "title": "VSCode Updater: Hello World"
-      },
-      {
         "command": "vs-code-updater.updateVSCode",
         "title": "VSCode Updater: Update VS Code"
       }

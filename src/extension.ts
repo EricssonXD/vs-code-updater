@@ -29,11 +29,12 @@ export function activate(context: vscode.ExtensionContext) {
       }
 
       vscode.window.showInformationMessage(
-        `Executing update: ${updateCommand}`
+        `Executing update: ${updateCommand}\nPlease check your terminal for the sudo password prompt.`
       );
       exec(updateCommand, (err, stdout, stderr) => {
         if (err) {
-          vscode.window.showErrorMessage(`Update failed: ${stderr}`);
+          vscode.window.showErrorMessage('Failed to update VS Code. Did you cancel the sudo prompt?');
+          vscode.window.showErrorMessage(`VSCode Update failed:\n${stderr}`);
           return;
         }
         vscode.window.showInformationMessage("VSCode updated successfully.");
