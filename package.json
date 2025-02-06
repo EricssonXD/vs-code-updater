@@ -16,6 +16,10 @@
       {
         "command": "vs-code-updator.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "vs-code-updator.updateLinuxPackageManager",
+        "title": "Update Linux Package Manager"
       }
     ]
   },
